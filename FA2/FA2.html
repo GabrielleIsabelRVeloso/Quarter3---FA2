@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <script src="FA2.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>calcU</h1>
+	<p> How to use </p>
+	<p> 1. Enter 2 numbers.</p>
+	<p> 2. Click on any of the operations below. </p>
+	<p> 3. Look at the result and remember to keep learning! </p>
+    <input type="text" id="num1" placeholder="num1">
+    <input type="text" id="num2" placeholder="num2">
+    <br>
+    <button class="a" onclick="(sum(parseInt(num1.value), parseInt(num2.value)))">+</button>
+    <button onclick="(diff(parseInt(num1.value), parseInt(num2.value)))">-</button>
+    <button onclick="(prod(parseInt(num1.value), parseInt(num2.value)))">*</button>
+    <button onclick="(quot(parseInt(num1.value), parseInt(num2.value)))">/</button>
+    <button onclick="(rem(parseInt(num1.value), parseInt(num2.value)))">%</button>
+    
+	<p id="res">Results will be displayed here.</p>
+ 
+
+</body>
+</html>
